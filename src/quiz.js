@@ -60,7 +60,7 @@ function Quiz() {
         question: "How important is CHALLENGING gameplay to you in a game?",
         options: [
         { id: 0, text: "Very Important", 
-            fe1: 0, fe2: 0, fe3: 0, fe4: 0, fe5: 2, fe6: 0, fe7: 0, fe8: 0, fe9: 0, fe10: 1, fe11: 0, fe12: 0, fe13: 0, fe14: 1, fe15: 0,fe16: 1, fe17: 1},
+            fe1: 0, fe2: 0, fe3: 0, fe4: 0, fe5: 2, fe6: 0, fe7: 0, fe8: 0, fe9: 0, fe10: 1, fe11: 0, fe12: 0, fe13: 0, fe14: 1, fe15: 0,fe16: 1, fe17: 0},
         { id: 1, text: "Meh", 
             fe1: 0, fe2: 0, fe3: 0, fe4: 1, fe5: 0, fe6: 0, fe7: 0, fe8: 0, fe9: 0, fe10: 0, fe11: 1, fe12: 0, fe13: 2, fe14: 0, fe15: 1,fe16: 0, fe17: 1 },
         { id: 2, text: "I do not care",
