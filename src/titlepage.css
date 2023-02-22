@@ -1,0 +1,60 @@
+body{
+    background-image: url("Fci7bAqagAUgPeo.jpg_large");
+    background-size: cover;
+}
+/* Style for the quiz container */
+.title-page-container {
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 600px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Style for the title-page title */
+  .title-page-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style for each title-page question */
+  .title-page-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title-page-container p {
+    text-align: center;
+  }
+  /* Style for each title-page answer option */
+  .title-page-container label {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Style for the submit button */
+  .title-page-container button {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the submit button when disabled */
+  .title-page-container button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
