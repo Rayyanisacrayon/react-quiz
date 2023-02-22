@@ -3,7 +3,6 @@ import React from "react";
 function ResultsPage({ scores, totalQuestions }) {
   const [firstrender, setFirstRender] = React.useState(true);
   const [multipleMax, setMultipleMax] = React.useState(false);
-  const [max, setMax] = React.useState(0);
   const [maxIndex, setMaxIndex] = React.useState(0);
   const [otherMaxIndex, setOtherMaxIndex] = React.useState([]);
 
@@ -13,7 +12,6 @@ function ResultsPage({ scores, totalQuestions }) {
     for (let i = 0; i < scores.length; i++) {
       if (scores[i] > locmax) {
         locmax = scores[i];
-        setMax(scores[i]);
         setMaxIndex(i);
       }
       else if(scores[i] === locmax){
@@ -45,8 +43,8 @@ function ResultsPage({ scores, totalQuestions }) {
     <div className="results-page-container">
       <h1>Quiz Results</h1>
       <p>You should try:</p>
-      {maxIndex === 0 ? (<p>FE1 Fire Emblem Shadow Dragon and the Blade of Light</p>) : null}
-      {maxIndex === 1 ? (<p>FE2 Fire Emblem Gaiden</p>) : null}
+      {maxIndex === 0 ? (<p>FE1 : Fire Emblem Shadow Dragon and the Blade of Light</p>) : null}
+      {maxIndex === 1 ? (<p>FE2 : Fire Emblem Gaiden</p>) : null}
       {maxIndex === 2 ? (<p>FE3 : Fire Emblem Mystery of the Emblem</p>) : null}
       {maxIndex === 3 ? (<p>FE4 : Fire Emblem Geneology of the Holy War</p>) : null}
       {maxIndex === 4 ? (<p>FE5 : Fire Emblem Thracia 776</p>) : null}
